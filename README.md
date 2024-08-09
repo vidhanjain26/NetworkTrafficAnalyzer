@@ -41,4 +41,4 @@ A simple network traffic analyzer tool built using Python and Scapy, with an opt
 You can run the script in command-line mode without the GUI by executing:
 
 ```bash
-python main.py
+python Network-Traffic-Analyzer.py
