@@ -8,31 +8,82 @@ A simple network traffic analyzer tool built using Python and Scapy, with an opt
 - Display IP and TCP packet information.
 - Start and stop packet capturing via a simple GUI (optional).
 - Dark-themed GUI for a modern look.
-
-## Prerequisites
-
-- Python 3.x
-- Scapy
-- Tkinter (for GUI)
+- Cross-platform support for Windows and Linux.
 
 ## Installation
 
+### **Windows**
+
 1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/vidhanjain26/NetworkTrafficAnalyzer
-    
-2. **Navigate to the project directory**:
-    ```sh
-   cd NetworkTrafficAnalyzer
 
-3. **Install the required Python packages**:
-     ```bash
+    ```bash
+    git clone https://github.com/vidhanjain26/NetworkTrafficAnalyzer.git
+    cd NetworkTrafficAnalyzer
+    ```
+
+2. **Install the required Python packages**:
+
+    ```bash
     pip install scapy
+    pip install tk
+    ```
 
-4. **Install Npcap** (for Windows users):
+3. **Install Npcap**:
    
    - Download and install Npcap from [Npcap website](https://nmap.org/npcap/#download).
    - During installation, ensure that "Install Npcap in WinPcap API-compatible mode" is checked.
+
+4. **Run the Tool**:
+
+    - Command-line mode:
+      ```bash
+      python main.py
+      ```
+
+    - GUI mode:
+      ```bash
+      python main.py
+      ```
+
+### **Linux**
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/vidhanjain26/NetworkTrafficAnalyzer.git
+    cd NetworkTrafficAnalyzer
+    ```
+
+2. **Install the required Python packages**:
+
+    ```bash
+    pip3 install scapy
+    ```
+
+3. **Install Tkinter** (for GUI):
+
+    ```bash
+    sudo apt-get install python3-tk
+    ```
+
+4. **Install Additional Tools**:
+
+    ```bash
+    sudo apt-get install tcpdump
+    sudo apt-get install libpcap-dev
+    ```
+
+5. **Run the Tool**:
+
+    - Command-line mode:
+      ```bash
+      sudo python3 main.py
+      ```
+
+    - GUI mode:
+      ```bash
+      sudo python3 main.py
+      ```
 
 ## Usage
 
