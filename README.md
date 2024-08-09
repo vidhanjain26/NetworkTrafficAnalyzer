@@ -19,7 +19,7 @@ A simple network traffic analyzer tool built using Python and Scapy, with an opt
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/NetworkTrafficAnalyzer.git
+    git clone https://github.com/vidhanjain26/NetworkTrafficAnalyzer
     
 2. **Navigate to the project directory**:
     ```sh
