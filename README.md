@@ -52,29 +52,31 @@ A simple network traffic analyzer tool built using Python and Scapy, with an opt
 
     ```bash
     git clone https://github.com/vidhanjain26/NetworkTrafficAnalyzer.git
+2. Navigate to the project directory
+   ```sh
     cd NetworkTrafficAnalyzer
     ```
 
-2. **Install the required Python packages**:
+3. **Install the required Python packages**:
 
     ```bash
     pip3 install scapy
     ```
 
-3. **Install Tkinter** (for GUI):
+4. **Install Tkinter** (for GUI):
 
     ```bash
     sudo apt-get install python3-tk
     ```
 
-4. **Install Additional Tools**:
+5. **Install Additional Tools**:
 
     ```bash
     sudo apt-get install tcpdump
     sudo apt-get install libpcap-dev
     ```
 
-5. **Run the Tool**:
+6. **Run the Tool**:
 
     - Command-line mode:
       ```bash
