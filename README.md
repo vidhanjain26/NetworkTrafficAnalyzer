@@ -18,19 +18,18 @@ A simple network traffic analyzer tool built using Python and Scapy, with an opt
 ## Installation
 
 1. **Clone the repository**:
-
-    ```bash
+    ```sh
     git clone https://github.com/your-username/NetworkTrafficAnalyzer.git
-    cd NetworkTrafficAnalyzer
-    ```
+    
+2. **Navigate to the project directory**:
+    ```sh
+   cd NetworkTrafficAnalyzer
 
-2. **Install the required Python packages**:
-
-    ```bash
+3. **Install the required Python packages**:
+     ```bash
     pip install scapy
-    ```
 
-3. **Install Npcap** (for Windows users):
+4. **Install Npcap** (for Windows users):
    
    - Download and install Npcap from [Npcap website](https://nmap.org/npcap/#download).
    - During installation, ensure that "Install Npcap in WinPcap API-compatible mode" is checked.
